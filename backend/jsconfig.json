@@ -1,0 +1,7 @@
+// Cấu hình TypeScript để có thể import các module từ thư mục src
+{
+  "compilerOptions": {
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
+}
