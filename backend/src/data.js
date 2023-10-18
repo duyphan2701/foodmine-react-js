@@ -1,6 +1,6 @@
 export const sample_foods = [
     {
-        id: '1',
+        id: null,
         name: 'Pizza Pepperoni',
         cookTime: '10-20',
         price: 10,
@@ -11,7 +11,7 @@ export const sample_foods = [
         tags: ['FastFood', 'Pizza', 'Lunch'],
     },
     {
-        id: '2',
+        id: null,
         name: 'Meatball',
         price: 20,
         cookTime: '20-30',
@@ -22,7 +22,7 @@ export const sample_foods = [
         tags: ['SlowFood', 'Lunch'],
     },
     {
-        id: '3',
+        id: null,
         name: 'Hamburger',
         price: 5,
         cookTime: '10-15',
@@ -33,7 +33,7 @@ export const sample_foods = [
         tags: ['FastFood', 'Hamburger'],
     },
     {
-        id: '4',
+        id: null,
         name: 'Fried Potatoes',
         price: 2,
         cookTime: '15-20',
@@ -44,7 +44,7 @@ export const sample_foods = [
         tags: ['FastFood', 'Fry'],
     },
     {
-        id: '5',
+        id: null,
         name: 'Chicken Soup',
         price: 11,
         cookTime: '40-50',
@@ -55,7 +55,7 @@ export const sample_foods = [
         tags: ['SlowFood', 'Soup'],
     },
     {
-        id: '6',
+        id: null,
         name: 'Vegetables Pizza',
         price: 9,
         cookTime: '40-50',
@@ -80,7 +80,7 @@ export const sample_tags = [
 
 export const sample_users = [
     {
-        id: 1,
+        id: null,
         name: 'John Doe',
         email: 'john@gmail.com',
         password: '12345',
@@ -88,7 +88,7 @@ export const sample_users = [
         isAdmin: false,
     },
     {
-        id: 2,
+        id: null,
         name: 'Jane Doe',
         email: 'jane@gmail.com',
         password: '12345',
