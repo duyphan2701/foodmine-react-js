@@ -1,5 +1,5 @@
-import React from 'react'
-import { useForm } from 'react-hook-form'
+import React from 'react';
+import { useForm } from 'react-hook-form';
 import Title from '../Title/Title';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
@@ -14,8 +14,8 @@ export default function ChangePassword() {
     } = useForm();
 
     const { changePassword } = useAuth();
-    const submit = password => {
-        changePassword(password);
+    const submit = passwords => {
+        changePassword(passwords);
     };
 
     return (
@@ -53,8 +53,9 @@ export default function ChangePassword() {
                     })}
                     error={errors.confirmNewPassword}
                 />
-                <Button type="submit" text="Change Password" />
+
+                <Button type="submit" text="Change" />
             </form>
         </div>
-    )
+    );
 }
